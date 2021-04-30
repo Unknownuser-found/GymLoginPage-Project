@@ -1,0 +1,139 @@
+ /* css reset  */
+ *{
+     /* border: 1px solid red; */
+ }
+ body {
+    font-family: 'Syne Mono', monospace;
+
+    color: rgb(240, 240, 240);
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://www.wallpapertip.com/wmimgs/145-1454928_bodybuilding-barbell-biceps-exercises-fitness-pumping-iron-black.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    top :0;
+    left: 0;
+}
+
+.left {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    overflow: hidden;
+
+}
+
+.elliot-gym {
+    line-height: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.left img {
+    filter: invert(1);
+    width: 50px;
+    position: absolute;
+}
+
+.mid {
+  padding: 5px;
+  
+}
+
+.right {
+    position: absolute;
+    right: 43px;
+    top: 10px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin: 0px;
+    padding: 15px;
+    align-content: center;
+    padding-left: 10%;
+}
+    
+
+.navbar li {
+    font-size: 15px;
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+
+}
+
+.navbar li a:visited{
+    color: rgb(108, 201, 201);
+}
+.navbar li a:hover{
+    color: CYAN;
+}
+.navbar li a:active {
+    color: rgb(202, 226, 226);
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: 'Syne Mono', monospace;
+    margin: 1px 5px;
+    color: white;
+    padding: 11px 21px;
+    border-radius: 10px;
+    font-size: 11px;
+    cursor: pointer;
+    background-color: #a05c65;
+    border: 3px solid #4abee0;
+}
+
+.btn:hover {
+    background-color: rgb(73, 91, 73);
+}
+
+.container {
+    border: 2px solid rgb(252, 245, 245);
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    position: absolute;
+    top: 217px;
+    left: 509px;
+    border-radius: 4px;
+    
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    font-family: 'Syne Mono', monospace;
+    width: 457px;
+    border: 2px solid red;
+    padding: 3px;
+    margin: 11px auto;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 470px;
+    margin: 9px auto;
+}
